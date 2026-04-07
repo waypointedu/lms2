@@ -1,7 +1,10 @@
-name: Unzip mywaypoint.zip
+name: Unzip2 mywaypoint.zip
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   unzip:
